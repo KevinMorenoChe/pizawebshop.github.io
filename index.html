@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu">
+            <a href="" class="menu__logo">Logo</a>
+            <input type="checkbox" id="menu"/>
+            <label class="menu__label" for="menu">
+                <img src="/img/menu.png" class="menu__icon" alt="">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="#">servicios</a></li>
+                    <li><a href="#">productos</a></li>
+                    <li><a href="#">contacto</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="/img/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="vaciar-carrito" class="btn2">Vaciar carrito</a>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header__container container" >
+            <div class="header__txt">
+                <h1>Tu comida favorita</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquam, amet doloremque labore doloribus iure. At aliquam corporis molestias voluptate. Asperiores autem esse quia molestiae expedita qui. Illo, et nostrum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus ipsa necessitatibus labore eaque asperiores? Aspernatur dignissimos possimus fuga in, libero porro et fugiat beatae, odio voluptates excepturi, quam at quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cum necessitatibus illo velit, earum facilis praesentium distinctio labore. Nobis consequuntur reprehenderit laborum? Minima corrupti, optio quod alias voluptates velit quis.</p>
+                <a href="#" class="btn1">Seccion menu</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="icons">
+        <div class="icon">
+            <img src="img/i1.svg" alt="">
+        </div>
+        <div class="icon">
+            <img src="img/i2.svg" alt="">
+        </div>
+        <div class="icon">
+            <img src="img/i3.svg" alt="">
+        </div>
+        <div class="icon">
+            <img src="img/i4.svg" alt="">
+        </div>
+        <div class="icon">
+            <img src="img/i5.svg" alt="">
+        </div>
+        <div class="icon">
+            <img src="img/i6.svg" alt="">
+        </div>
+        <div class="icon">
+            <img src="img/i7.svg" alt="">
+        </div>
+        <div class="icon">
+            <img src="img/i8.svg" alt="">
+        </div>
+        <div class="icon">
+            <img src="img/i9.svg" alt="">
+        </div>
+        <div class="icon">
+            <img src="img/i10.svg" alt="">
+        </div>
+    </section>
+
+    <section class="products container" id="lista-1">
+
+        <h2>pizzas</h2>
+
+        <div class="products__content">
+
+            <div class="product">
+                <img src="img/pi1.png" alt="">
+                <h3>Pizza</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="1">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pi2.png" alt="">
+                <h3>Pizza</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="2">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pi3.png" alt="">
+                <h3>Pizza</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="3">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pi4.png" alt="">
+                <h3>Pizza</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="4">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pi5.png" alt="">
+                <h3>Pizza</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="5">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pi6.png" alt="">
+                <h3>Pizza</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="6">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pi7.png" alt="">
+                <h3>Pizza</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="7">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pi8.png" alt="">
+                <h3>Pizza</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="8">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pi9.png" alt="">
+                <h3>Pizza</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="9">Agregar a carrito</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="products container" id="lista-2">
+
+        <h2>Ensaladas</h2>
+
+        <div class="products__content">
+
+            <div class="product">
+                <img src="img/e1.png" alt="">
+                <h3>Ensalada</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="10">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/e2.png" alt="">
+                <h3>Ensalada</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="11">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/e3.png" alt="">
+                <h3>Ensalada</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="12">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/e4.png" alt="">
+                <h3>Ensalada</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="13">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/e5.png" alt="">
+                <h3>Ensalada</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="14">Agregar a carrito</a>
+            </div>
+
+            <div class="product">
+                <img src="img/e6.png" alt="">
+                <h3>Ensalada</h3>
+                <p>calidad premium</p>
+                <p class="precio">$200</p>
+                <a href="#" class="addcar btn2" data-id="15">Agregar a carrito</a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="services container">
+
+        <h2>servicios</h2>
+        <div class="services__content container">
+
+            <div class="service">
+                
+                <h3>comida</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dicta ratione architecto?
+                </p>
+
+            </div>
+            <div class="service">
+                
+                <h3>comida</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dicta ratione architecto?
+                </p>
+
+            </div>
+            <div class="service">
+                
+                <h3>comida</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dicta ratione architecto?
+                </p>
+
+            </div>
+            <div class="service">
+                
+                <h3>comida</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dicta ratione architecto?
+                </p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer container">
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
